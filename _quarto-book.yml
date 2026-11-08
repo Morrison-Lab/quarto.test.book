@@ -3,21 +3,11 @@ project:
   output-dir: _book
 
 book:
-  title: "Regression Models for Epidemiology"
+  title: "Test-book"
   downloads: [pdf]
-  author:
-    - name: "Ezra Morrison"
-      url: https://demorrison.ucdavis.edu/
-      affiliation: Department of Public Health Sciences, School of Medicine, University of California, Davis
-  page-footer:
-    left:
-      - text: "Copyright 2023, Douglas Ezra Morrison"
   date: last-modified
   date-format: "[Last modified:] YYYY-MM-DD: H:mm:ss (A)"
-  google-analytics: "G-W625DGE908"
   reader-mode: true
-  repo-url: https://github.com/d-morrison/rme
-  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - intro.qmd
@@ -31,7 +21,6 @@ bibliography: references.bib
 format:
   html:
     shift-heading-level-by: 1
-    subject: "Epidemiology 204"
     date: last-modified
     date-format: "[Last modified:] YYYY-MM-DD: H:mm:ss (A)"
     theme:
@@ -40,6 +29,7 @@ format:
     code-tools: true
     code-fold: true
     code-link: true
+    df-print: paged
     fig-cap-location: top
     html-math-method: mathjax
     number-sections: true
@@ -57,7 +47,7 @@ format:
     df-print: tibble
     documentclass: scrbook
     classoption: [twoside=off]
-    shift-heading-level-by: 1
+    shift-heading-level-by: 0
     toc-depth: 2
     number-sections: true
     number-depth: 3

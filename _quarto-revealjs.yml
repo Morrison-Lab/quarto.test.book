@@ -13,8 +13,9 @@ format:
     html-math-method: mathjax
     smaller: false
     number-sections: true
-    number-depth: 2
+    number-depth: 3
     slide-number: true
+    shift-heading-level-by: -1
     slide-level: 2
     scrollable: true
     echo: true
